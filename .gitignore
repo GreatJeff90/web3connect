@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment Variables (CRITICAL: Do not leak your private keys)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+
+# IDE / System files
+.vscode/
+.DS_Store
+Thumbs.db

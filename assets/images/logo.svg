@@ -1,0 +1,21 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Shield/Frame -->
+  <rect x="2" y="2" width="36" height="36" rx="8" fill="url(#gold_gradient)" />
+  <rect x="4" y="4" width="32" height="32" rx="6" fill="#0F172A" />
+  
+  <!-- Bridge Elements -->
+  <path d="M10 28V24C10 20.6863 12.6863 18 16 18H24C27.3137 18 30 20.6863 30 24V28" stroke="url(#gold_gradient)" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- The "R" -->
+  <path d="M16 14H21C22.6569 14 24 15.3431 24 17C24 18.6569 22.6569 20 21 20H16V26" stroke="#FBBF24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M21 20L24 26" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gold_gradient" x1="2" y1="2" x2="38" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="0.5" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+</svg>
