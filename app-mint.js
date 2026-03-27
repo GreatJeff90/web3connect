@@ -444,12 +444,11 @@ async function connectWallet(injected) {
 	}
 }
 async function recalibratebutton( btntext, changestate ) {
-  // Add the 's' to interactButtons
+  // Change 'interactButton' to 'interactButtons'
   for ( const btn of interactButtons ) { 
     if (changestate) {
       btn.removeAttribute('disabled');
     }
-    // btn.innerHTML = btntext;
   }
 }
 async function switchChain( targetId, chainName ) {
