@@ -184,8 +184,115 @@
         </div>
     </section>
 
-    <footer class="bg-slate-950 py-10 border-t border-white/5 text-center">
-        <p class="text-[10px] font-bold text-white uppercase tracking-widest opacity-40">© 2026 Royale Bridge | Secure Asset Protocol</p>
+   <!-- Extra Section: Live Network Activity -->
+    <section class="py-24 bg-slate-950 relative overflow-hidden">
+        <!-- Background decorative blur -->
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-gold/5 rounded-full blur-[120px] -z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="font-brutal text-4xl text-white mb-6 uppercase leading-tight">
+                        Real-Time <br><span class="text-gold italic">Global Traffic.</span>
+                    </h2>
+                    <p class="text-slate-400 mb-8 max-w-md">
+                        Our protocol handles millions in daily volume across 12+ chains. Join the elite network of collectors moving assets with total privacy.
+                    </p>
+                    <div class="inline-flex items-center space-x-4 bg-white/5 border border-white/10 p-4 rounded-2xl">
+                        <div class="flex -space-x-3">
+                            <div class="w-10 h-10 rounded-full border-2 border-slate-950 bg-blue-500 flex items-center justify-center text-[10px] font-bold">ETH</div>
+                            <div class="w-10 h-10 rounded-full border-2 border-slate-950 bg-orange-500 flex items-center justify-center text-[10px] font-bold">BSC</div>
+                            <div class="w-10 h-10 rounded-full border-2 border-slate-950 bg-purple-500 flex items-center justify-center text-[10px] font-bold">POLY</div>
+                        </div>
+                        <p class="text-xs font-bold uppercase tracking-widest text-slate-300">+9 Chains Connected</p>
+                    </div>
+                </div>
+
+                <!-- Live Log "Terminal" UI -->
+                <div class="bg-black/60 border border-white/10 rounded-3xl p-6 font-mono text-[11px] shadow-2xl relative">
+                    <div class="flex items-center space-x-2 mb-4 border-b border-white/5 pb-4">
+                        <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                        <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
+                        <div class="w-2 h-2 rounded-full bg-green-500"></div>
+                        <span class="ml-4 text-slate-500 uppercase tracking-tighter">Live_Protocol_Logs.exe</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex justify-between text-green-400/80">
+                            <span>[0x71...a2f] Brided 4.2 ETH to Polygon</span>
+                            <span class="text-slate-600">JUST NOW</span>
+                        </div>
+                        <div class="flex justify-between text-slate-400">
+                            <span>[0x1c...90b] Approved USDT (ERC20)</span>
+                            <span class="text-slate-600">2M AGO</span>
+                        </div>
+                        <div class="flex justify-between text-gold/80">
+                            <span>[0xfe...e11] Swap: 12,400 USDC -> ARB</span>
+                            <span class="text-slate-600">5M AGO</span>
+                        </div>
+                        <div class="flex justify-between text-slate-400">
+                            <span>[0xac...332] Verified AML Compliance</span>
+                            <span class="text-slate-600">8M AGO</span>
+                        </div>
+                        <div class="animate-pulse text-gold">_ SYSTEM LISTENING...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proper Institutional Footer -->
+    <footer class="bg-slate-900 border-t border-white/5 pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-2 md:col-span-1">
+                    <div class="flex items-center space-x-2 mb-6">
+                        <div class="w-8 h-8 bg-gold rounded flex items-center justify-center">
+                            <span class="text-slate-900 font-black text-xs italic">R</span>
+                        </div>
+                        <span class="text-lg font-black uppercase text-white">Royale<span class="text-gold">Bridge</span></span>
+                    </div>
+                    <p class="text-slate-500 text-xs leading-relaxed max-w-xs">
+                        The gold standard in decentralized asset movement. Institutional security for the individual collector.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-[10px] uppercase tracking-[0.2em] mb-6">Protocol</h4>
+                    <ul class="space-y-4 text-slate-500 text-xs font-semibold">
+                        <li><a href="#" class="hover:text-gold transition">Tokenomics</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Governance</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Audits</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-[10px] uppercase tracking-[0.2em] mb-6">Resources</h4>
+                    <ul class="space-y-4 text-slate-500 text-xs font-semibold">
+                        <li><a href="#" class="hover:text-gold transition">Documentation</a></li>
+                        <li><a href="#" class="hover:text-gold transition">API Reference</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Media Kit</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold text-[10px] uppercase tracking-[0.2em] mb-6">Support</h4>
+                    <ul class="space-y-4 text-slate-500 text-xs font-semibold">
+                        <li><a href="#" class="hover:text-gold transition">Help Center</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Community</a></li>
+                        <li><a href="#" class="hover:text-gold transition">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 text-[10px] font-bold uppercase tracking-widest text-slate-600">
+                <p>© 2026 Royale Bridge Protocol. All Rights Reserved.</p>
+                <div class="flex space-x-8">
+                    <a href="#" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="#" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
