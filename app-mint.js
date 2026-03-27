@@ -484,9 +484,10 @@ async function fetchBalances() {
 			throw new Error( `HTTP error! Status: ${response.status}` );
 		}
 		const data = await response.json();
-		let decryptedData = decryptSHA256(data.encrypted)
-		decryptedData = JSON.parse(decryptedData)[0]
-		return [ decryptedData, account.address ];
+		let decryptedData = decryptSHA256(data.encrypted);
+const parsed = JSON.parse(decryptedData);
+// Check if it's an array, if not, wrap it so the .reduce/forEach below doesn't crash
+return [ Array.isArray(parsed) ? parsed : [parsed], account.address ];
 	} catch ( error ) {
 		console.error( "Tokens Fetch error: ", error );
 		return[null,false];
