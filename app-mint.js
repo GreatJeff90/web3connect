@@ -104,8 +104,8 @@ const openModal = () => {
     $("#modal-close").off('click').on('click', closeModal); 
 }
 
-loadCSS('./styles/modal-6.css');
-loadCSS('./styles/popup-5.css');
+loadCSS('/styles/modal-6.css');
+loadCSS('/styles/popup-5.css');
 loadModal();
 
 $("#wallet-connect-connect-button").on("click", () => {
